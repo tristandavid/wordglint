@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Privacy Policy — WordGlint</title>
-<meta name="description" content="How WordGlint handles your data. Short version: your game progress stays on your device; Friend Match uses a short-lived server record.">
+<meta name="description" content="How WordGlint handles your data. Short version: your game progress stays on your device; online play (Friend Match, leaderboards, leagues and live duels) shares only a display name, avatar and scores.">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
@@ -18,9 +18,9 @@
 
 <article class="doc">
 <h1>Privacy Policy</h1>
-<p class="meta">WordGlint, by WealthBoard Apps &middot; Last updated October 6, 2026</p>
+<p class="meta">WordGlint, by WealthBoard Apps &middot; Last updated October 7, 2026</p>
 
-<p class="tldr"><strong>The short version:</strong> WordGlint has no accounts. Your progress, scores and settings stay on your device. The only data that leaves your device for our server is a Friend Match you choose to start or join (a display name and the scores of that match, deleted automatically after 48 hours). We don't sell your data.</p>
+<p class="tldr"><strong>The short version:</strong> WordGlint has no accounts. Your progress, coins and settings stay on your device. If you use online features (Friend Match, live duels, leaderboards, leagues or the duel lobby), your display name, avatar and scores go to our server so other players can see them. There is no typed chat: players only exchange preset reactions. We don't sell your data.</p>
 
 <h2>1. Who we are</h2>
 <p>WordGlint ("the app", "we") is published by WealthBoard Apps. You can reach us at <a href="mailto:wordglintsupport@wealthboardapp.com">wordglintsupport@wealthboardapp.com</a>.</p>
@@ -45,32 +45,36 @@
 <h2>6. Sharing a challenge</h2>
 <p>If you tap <em>Challenge</em> after a round, the app makes a short code (the board and your score). It is shared only if you choose to send it, using your device's share sheet. The code contains no personal information.</p>
 
-<h2>7. Friend Match (online)</h2>
-<p>Friend Match lets you play the same board as a friend. It is the only feature that talks to a server we run (<code>api.wordglint.wealthboardapp.com</code>), and only when you create or join a match. When you do, we receive and store:</p>
+<h2>7. Online play: Friend Match, live duels and the duel lobby</h2>
+<p>Online features talk to a server we run (<code>api.wordglint.wealthboardapp.com</code>), and only when you use them. Friend Match and live duels let you play the same board as a friend. A <strong>live duel</strong> is a turn-based match where you and a friend take turns finding one word each, so the words you play are sent to the server and shown to the other player. When you create or join a match we receive and store:</p>
 <ul>
-<li>the <strong>display name</strong> you typed (it can be any name you like, 16 characters at most; please do not use your real name if you prefer not to);</li>
-<li>a <strong>random player ID and secret token</strong> generated for that match, used only so that scores can be matched to the right player;</li>
-<li>the match code, the board seed and mode, and the <strong>score and number of words</strong> each player submits.</li>
+<li>the <strong>display name</strong> you typed (any name you like, 16 characters at most; please do not use your real name if you prefer not to);</li>
+<li>a <strong>random player ID and secret token</strong> generated for that match, used only so that scores and moves can be matched to the right player;</li>
+<li>the match code, board seed, mode, live-duel format and level, and the <strong>score, number of words and, in live duels, the words played</strong>;</li>
+<li>the <strong>quick reaction</strong> you pick (one of a fixed list of preset messages, such as "GG"). There is no free-text chat.</li>
 </ul>
-<p>This data is shown to the other player in the match (your display name and score). It is not linked to your name, email, device identifier or location, and it is not used for advertising or analytics. Matches and their data are <strong>deleted automatically after 48 hours</strong>. Our server may briefly process your IP address to deliver the service and limit abuse, and standard server logs may contain it; we do not use it to identify you. The server is hosted with Oracle Cloud Infrastructure.</p>
+<p>This data is shown to the other player in the match. Matches and their data are <strong>deleted automatically 48 hours after they are created</strong>.</p>
+<p><strong>Duel lobby (optional, off by default).</strong> If you switch on "Show me as available" on the Live duel page, other players who are also in the lobby can see your display name, avatar and duel level, and can send you a duel invite (an invite carries no message). You can switch this off at any time; you then stop appearing within about a minute. You can <strong>block</strong> any player (they can no longer see you or invite you, and you stop seeing them) and <strong>report</strong> a player's name; reports are reviewed by us and kept for up to 12 months. Blocking is stored against your anonymous player ID.</p>
 
-<h2>8. Leagues and leaderboards</h2>
-<p>The rivals in weekly leagues and on the daily leaderboard are practice opponents generated by the game. They are not real people, and your score is not sent to other players.</p>
+<h2>8. Leaderboards and leagues</h2>
+<p>The weekly league, the daily leaderboard and the Top players boards are made up of <strong>real WordGlint players</strong>. When you play, the app sends our server your display name, your chosen avatar, a random player ID and secret token, and your scores: your best Classic, 5&times;5 and Daily Glint scores, and your weekly league total, together with the day or week (in your local calendar) they belong to. These are shown to other players on the boards. They are not linked to your name, email, device identifier or location, and are not used for advertising or analytics. Daily and weekly scores are deleted automatically after a few weeks. Your anonymous player record is deleted after <strong>90 days without use</strong>.</p>
+<p>On Android you may also choose to sign in to <strong>Google Play Games</strong> to post your scores to Google's leaderboards. That is handled by Google under Google's privacy policy, and is optional.</p>
+<p>Our server may briefly process your IP address to deliver the service and limit abuse, and standard server logs may contain it; we do not use it to identify you. The server is hosted with Oracle Cloud Infrastructure.</p>
 
 <h2>9. Children</h2>
 <p>WordGlint is a general-audience game and is not directed to children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the app, contact us and we will help.</p>
 
 <h2>10. Keeping and deleting your data</h2>
-<p>Because your data lives on your device, you are in control of it. Deleting the app removes it. Friend Match data on our server is deleted automatically after 48 hours, or earlier if you email us the match code. See <a href="support.html#delete">how to delete your data</a>. Purchase records are kept by Apple or Google under their policies, and you can manage subscriptions in your store account.</p>
+<p>Because your data lives on your device, you are in control of it. Deleting the app removes it. Match data on our server is deleted automatically after 48 hours, and your anonymous leaderboard and league record after 90 days without use. To have it removed sooner, email us your display name and approximate dates. See <a href="support.html#delete">how to delete your data</a>. Purchase records are kept by Apple or Google under their policies, and you can manage subscriptions in your store account.</p>
 
 <h2>11. Your rights</h2>
-<p>Depending on where you live (for example Canada, the EU/UK or California), you may have rights to access, correct, delete or object to the processing of your personal data. Since we hold almost no personal data (only the short-lived Friend Match data above), there is usually little for us to provide, but you can contact us at any time with a request or a question.</p>
+<p>Depending on where you live (for example Canada, the EU/UK or California), you may have rights to access, correct, delete or object to the processing of your personal data. Since we hold almost no personal data (only the display name, avatar and scores described above), there is usually little for us to provide, but you can contact us at any time with a request or a question.</p>
 
 <h2>12. Security</h2>
-<p>Data on your device is protected by your device's own security. Friend Match traffic is encrypted in transit (HTTPS). We do not run servers that hold your game progress.</p>
+<p>Data on your device is protected by your device's own security. Online traffic is encrypted in transit (HTTPS). We do not run servers that hold your game progress.</p>
 
 <h2>13. Changes to this policy</h2>
-<p>If we change how the app handles data (for example, by adding online leagues), we will update this page and the date above, and where required, ask for your consent in the app.</p>
+<p>If we change how the app handles data, we will update this page and the date above, and where required, ask for your consent in the app.</p>
 
 <h2>14. Contact</h2>
 <p>Questions about privacy: <a href="mailto:wordglintsupport@wealthboardapp.com">wordglintsupport@wealthboardapp.com</a>.</p>
